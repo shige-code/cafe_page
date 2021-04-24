@@ -1,0 +1,36 @@
+body{
+    background: #eeeeee;
+}
+h1{
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+
+details {
+    border: 1px solid #ccc;
+  }
+  details:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  
+
+  details summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 20px;
+    background: #e4e4e4;
+    color: #242323;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  details summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  details div {
+    margin: 0;
+    padding: 20px;
+  }
